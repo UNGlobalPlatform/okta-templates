@@ -1,0 +1,50 @@
+<div style="background-color:#fafafa;margin:0">
+  <table style="font-family:'proxima nova' , 'century gothic' , 'arial' , 'verdana' , sans-serif;font-size:14px;color:#5e5e5e;width:98%;max-width:600px;float:none;margin:0 auto" border="0" cellpadding="0" cellspacing="0" valign="top" align="left">
+    <tbody>
+      <tr align="middle">
+        <td style="padding-top:30px;padding-bottom:32px"><img src="${oktaLogoUrl}" height="37" /></td>
+      </tr>
+      <tr bgcolor="#ffffff">
+        <td>
+          <table bgcolor="#ffffff" style="width:100%;line-height:20px;padding:32px;border:1px solid;border-color:#f0f0f0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td style="color:#5e5e5e;font-size:22px;line-height:22px"> ${org.name} - Welcome to Okta! </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px;vertical-align:bottom"> Hi ${user.firstName}, </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> Your organization is using Okta to manage your web applications. This means you can conveniently access all the applications you normally use, through a single, secure home page. Watch this short video to learn more: <a href="https://www.okta.com/intro-to-okta/" style="color:#007dc1;text-decoration:none"><span style="color:#007dc1;text-decoration:none">https://www.okta.com/intro-to-okta/</span></a> </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> Your system administrator has created an Okta user account for you.<br /> <strong>Click the following link to activate your Okta account:</strong> </td>
+              </tr>
+              <tr>
+                <td align="center" style="border:none;padding:25px 0 0 0">
+                  <table border="0" cellpadding="0" cellspacing="0" valign="top">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="display:inline-block;padding:10px;border:1px solid;text-align:center;cursor:pointer;color:#fff;border-radius:3px;background-color:#44bc98;border-color:#328c71 #328c71 #2f856b;box-shadow:#d8d8d8 0 1px 0"> <a id="reset-password-link" href="${activationLink}" style="text-decoration:none"> <span style="font-size:13.5px;color:#fff"> Activate Okta Account </span> </a> </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="color:#999"> This link expires in ${f:formatTimeDiffHoursNowInUserLocale(org.activationTokenExpirationHours)}. </td>
+                      </tr>
+                    </tbody>
+                  </table> </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> Your username is <strong>${user.login}</strong><br /> Your organization's sign-in page is <a href="${baseURL}" style="color:#007dc1;text-decoration:none"><span style="color:#007dc1;text-decoration:none">${baseURL}</span></a> </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> If you experience difficulties accessing your account, you can send a help request to your system administrator using the link: <a href="${baseURL}/help/login" style="color:#007dc1;text-decoration:none"><span style="color:#007dc1;text-decoration:none">${baseURL}/help/login</span></a> </td>
+              </tr>
+            </tbody>
+          </table> </td>
+      </tr>
+      <tr>
+        <td style="font-size:12px;padding:16px 0 30px 50px;color:#999"> This is an automatically generated message from <a href="http://www.okta.com" style="color:rgb( 97 , 97 , 97 )">Okta</a>. Replies are not monitored or answered. </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
