@@ -7,5 +7,7 @@
   [html source](email-account-password-reset-en.html)
 - __[Forgot password](https://unglobalplatform.github.io/okta-templates/email-forgot-password.html)__<br />
   [html source](email-forgot-password.html)
+- __[MFA Enrolled](https://unglobalplatform.github.io/okta-templates/email-mfa-enrolled.html)__<br />
+  [html source](email-mfa-enrolled.html)
 
 Released under MIT license, see [LICENSE](LICENSE.md) for details.
