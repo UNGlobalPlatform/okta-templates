@@ -1,0 +1,46 @@
+<div style="background-color:#fafafa;margin:0">
+  <table style="font-family:'proxima nova' , 'century gothic' , 'arial' , 'verdana' , sans-serif;font-size:14px;color:#5e5e5e;width:98%;max-width:600px;float:none;margin:0 auto" border="0" cellpadding="0" cellspacing="0" valign="top" align="left">
+    <tbody>
+      <tr align="middle">
+        <td style="padding-top:30px;padding-bottom:32px"><img src="${oktaLogoUrl}" height="37" /></td>
+      </tr>
+      <tr bgcolor="#ffffff">
+        <td>
+          <table bgcolor="#ffffff" style="width:100%;line-height:20px;padding:32px;border:1px solid;border-color:#f0f0f0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td style="color:#00adef;font-size:22px;line-height:22px">New sign-on detected for your UN Global Platform account </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> Hi ${user.firstName}, </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> Your UN Global Platform Account (<span style="color:#00adef;">${user.login}</span>) was just used to sign-in from a new or unrecognized device, browser, or application. </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px;font-size:18px;font-weight:600;color:#00adef;line-height:24px"> Sign-in details </td>
+              </tr>
+              <tr>
+                <td style="line-height:24px"> ${request.browser} <br /> ${request.date} <br /> ${request.location} <br /> IP: ${request.ipAddress} </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px;font-size:18px;font-weight:600;color:#00adef;line-height:24px"> Don't recognize this activity? </td>
+              </tr>
+              <tr>
+                <td>If you do not recognize this activity please contact <a href="mailto:support@officialstatistics.org" style="color:#00adef">support@officialstatistics.org</a> immediately. Your account may have been compromised; we recommend changing your password. </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> The security of your account is very important to us and we want to ensure that you are updated when important actions are taken. </td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px"> We were unable to determine if you had previously signed in with this device before. This notification is common if you are signing in a new device, a new browser, have deleted your cookies or are accessing the UN&nbsp;Global&nbsp;Platform in Incognito Mode. </td>
+              </tr>
+            </tbody>
+          </table> </td>
+      </tr>
+      <tr>
+        <td style="font-size:12px;padding:16px 0 30px 30px;color:#999"> This message was automatically generated on ${request.date}, at ${request.time}. Replies are not monitored or answered. </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
