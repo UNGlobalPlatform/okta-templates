@@ -1,11 +1,14 @@
 # UN Global Platform Authentication service
 
 ## Templates
+These templates are used for the customisation of the email templates in the UN Global Platform Authentication service.
+
+Amend each by replacing the existing template in the `Settings -> Emails &amp; SMS` area of the administration area.
 
 ### 1. Account lockout
   Used for "Account Lockout" template.
-  - [preview](https://unglobalplatform.github.io/okta-templates/email-account-lockout.html)
-  - [html source](email-account-lockout.html)
+  - [preview](https://unglobalplatform.github.io/okta-templates/email_account-lockout_en.html)
+  - [html source](email_account-lockout_en.html)
 
 ### 2. Password reset
   Used for the "Forgot Password" template.
