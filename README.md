@@ -1,9 +1,13 @@
 # UN Global Platform Authentication service
 
 ## Templates
-- __[Account lockout](https://unglobalplatform.github.io/okta-templates/email-account-lockout.html)__<br />
-  Used for "Account Lockout" template.<br />
-  [html source](email-account-lockout.html)
+
+### Account lockout
+
+  Used for "Account Lockout" template.
+  - [preview](https://unglobalplatform.github.io/okta-templates/email-account-lockout.html)
+  - [html source](email-account-lockout.html)
+
 - __[Password reset](https://unglobalplatform.github.io/okta-templates/email-account-password-reset-en.html)__<br />
   [html source](email-account-password-reset-en.html)
 - __[Forgot password](https://unglobalplatform.github.io/okta-templates/email-forgot-password.html)__<br />
@@ -13,8 +17,10 @@
 - __[MFA Email Reset](https://unglobalplatform.github.io/okta-templates/email-mfa-reset.html)__<br />
   [html source](email-mfa-reset.html)
 - __[MFA New devices notification](https://unglobalplatform.github.io/okta-templates/email-new-devices-notification.html)__<br />
+  Used for "New Device Notification" template.
   [html source](email-new-devices-notification.html)
 - __[Password reset by admin](https://unglobalplatform.github.io/okta-templates/email-password-reset-by-admin.html)__<br />
+  Used for "Password Reset by Admin" template<br />
   [html source](email-password-reset-by-admin.html)
 - __[Welcome email](https://unglobalplatform.github.io/okta-templates/email-welcome-en.html)__<br />
   Used for "User Activation" template.<br />
