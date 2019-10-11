@@ -3,7 +3,10 @@
 ## Templates
 These templates are used for the customisation of the email templates in the UN Global Platform Authentication service.
 
-Amend each by replacing the existing template in the `Settings -> Emails &amp; SMS` area of the administration area.
+Amend each by replacing the existing template in the `Settings -> Emails & SMS` area of the administration area.
+
+#### Template files
+Naming conventions: [template type - `email` or `sms`]\_[file-name - `mfa-reset`]\_[language code - `en`].[filetype extension] e.g. `email_mfa-reset_en.html`.
 
 ### 1. Account lockout
   Used for "Account Lockout" template.
