@@ -9,5 +9,13 @@
   [html source](email-forgot-password.html)
 - __[MFA Enrolled](https://unglobalplatform.github.io/okta-templates/email-mfa-enrolled.html)__<br />
   [html source](email-mfa-enrolled.html)
+- __[MFA Email Reset](https://unglobalplatform.github.io/okta-templates/email-mfa-reset.html)__<br />
+  [html source](email-mfa-reset.html)
+- __[MFA New devices notification](https://unglobalplatform.github.io/okta-templates/email-new-devices-notification.html)__<br />
+  [html source](email-new-devices-notification.html)
+- __[Password reset by admin](https://unglobalplatform.github.io/okta-templates/email-password-reset-by-admin.html)__<br />
+  [html source](email-password-reset-by-admin.html)
+- __[Welcome email](https://unglobalplatform.github.io/okta-templates/email-welcome-en.html)__<br />
+  [html source](email-welcome-en.html)
 
 Released under MIT license, see [LICENSE](LICENSE.md) for details.
