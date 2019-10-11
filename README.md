@@ -6,7 +6,7 @@ These templates are used for the customisation of the email templates in the UN 
 Amend each by replacing the existing template in the `Settings -> Emails & SMS` area of the administration area.
 
 #### Template files
-Naming conventions: [template type - `email` or `sms`]\_[file-name - `mfa-reset`]\_[language code - `en`].[filetype extension] e.g. `email_mfa-reset_en.html`.
+Naming conventions: [template type - `email` or `sms`]\_[file-name - `mfa-reset`]\_[language code - `en` or `fr`].[filetype extension - `.html`] e.g. `email_mfa-reset_en.html`.
 
 ### 1. Account lockout
   Used for "Account Lockout" template.
